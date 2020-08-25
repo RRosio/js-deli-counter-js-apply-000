@@ -1,9 +1,10 @@
-function takeANumber(startLine, custName){
+/*function takeANumber(startLine, custName){
   startLine.push(custName);
 
   var greeting = "Welcome, " + custName + ". You are number " + startLine.length.toString() + " in line.";
   return greeting
-}
+}*/
+
 function nowServing(custArr){
   var noOne = "There is nobody waiting to be served!";
   if (custArr.length >= 1){
