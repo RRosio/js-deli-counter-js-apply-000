@@ -4,7 +4,14 @@
   var greeting = "Welcome, " + custName + ". You are number " + startLine.length.toString() + " in line.";
   return greeting
 }*/
+var cntr = 0
 
+function takeANumber(startLine){
+  startLine.push(cntr)
+  var greeting = "Welcome, you are number " + cntr.toString() + " in line.";
+  cntr += 1
+  return greeting
+}
 function nowServing(custArr){
   var noOne = "There is nobody waiting to be served!";
   if (custArr.length >= 1){
